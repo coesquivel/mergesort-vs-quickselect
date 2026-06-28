@@ -1,0 +1,7 @@
+.venv/
+logs/
+*.log
+src/*
+!src/*.java
+!src/*.py
+!src/*.ipynb
