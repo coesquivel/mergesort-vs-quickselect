@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
 
-package com.mycompany.graficascomparativas;
+
 
 /**
  *
@@ -25,12 +25,8 @@ public class GraficasComparativas {
         
         ComparadorAlgoritmos com = new ComparadorAlgoritmos();
         
-        //TuplaNumerica[] prueba = Importador.importarDatos("prueba.txt");
-        //com.haciaCSV("primerTercio", prueba, prueba.length);
-        
         //com.haciaCSV("primerTercio", primerTercio, primerTercio.length);
         //com.haciaCSV("segundoTercio", segundoTercio, segundoTercio.length);
-        //boolean xd = True
         //com.haciaCSV("tercerTercio.csv", tercerTercio, tercerTercio.length);
         
         //Top 1% mayores gastadores
