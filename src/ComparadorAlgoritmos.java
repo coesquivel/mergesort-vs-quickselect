@@ -49,7 +49,8 @@ public class ComparadorAlgoritmos {
                 
                     // --- QUICKSELECT ---
                     QuickSelect qckselect = new QuickSelect(numsParaQuick);
-                    qckselect.USEQuickSelect( random.nextInt(1, i) ); //Simulamos casos X de puestos aleatorios
+                    //Simulamos casos X de puestos aleatorios
+                    qckselect.USEQuickSelect( random.nextInt(1, Math.max(1,i)) ); //Evitamos el error de bound menor a 1 por i=0
                     quickselectComparisons += qckselect.get_num_of_comparisons(); 
                 
                     // --- MERGESORT ---
